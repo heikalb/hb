@@ -443,7 +443,7 @@ form #submit-button {
 }
 
 #site-header.darkened *,body.darkened #page-desc, form.darkened label,
-form.darkened p, .darkened label{
+form.darkened p{
     color: #fff
 }
 
