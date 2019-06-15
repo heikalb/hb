@@ -443,7 +443,7 @@ form #submit-button {
 }
 
 #site-header.darkened *,body.darkened #page-desc, form.darkened label,
-form.darkened p {
+form.darkened p, .darkened label{
     color: #fff
 }
 
@@ -470,6 +470,9 @@ body.darkened .gallery {
     -webkit-transition: background-color, 1s
 }
 
+
+
+/*Smaller display styling*/
 @media screen and (max-width:950px) {
     #site-title {
         font-size: 1.4em;
