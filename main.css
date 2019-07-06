@@ -59,7 +59,7 @@ a {
 
 #page-links {
     float: right;
-    min-width: 500px;
+    min-width: 600px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -68,7 +68,20 @@ a {
 
 #page-links a {
     font-size: medium;
-    margin: 0 3% 0 0
+}
+
+#page-links > *
+{
+    margin-right: 3%
+}
+
+#photography-subpages :not(a:first-child), #photography-subpages :not(a:last-child){
+    margin-right: 1%;
+}
+
+
+#page-links #photography-subpages a:last-child, #page-links #photography-subpages a:first-child{
+    margin-right: 0
 }
 
 .spacer {
@@ -476,7 +489,7 @@ body.darkened .gallery {
 @media screen and (max-width:950px) {
     #site-title {
         font-size: 1.4em;
-        margin: 8px 8px 12px;
+        margin: 8px 8px 20px;
     }
 
     #copyright, #no-JS-message, #page-desc, #page-links, .thumbnail-gallery,
@@ -524,7 +537,7 @@ body.darkened .gallery {
 
 @media screen and (max-width:530px) {
     #site-title {
-        font-size: 1em
+        font-size: 1.4em
     }
 
     #copyright, #no-JS-message, #page-desc, #page-links a, form {
@@ -533,10 +546,6 @@ body.darkened .gallery {
 
     #page-links a {
         margin: 0 4px 0 0
-    }
-
-    .spacer {
-        height: 4em
     }
 
     .spacer2 {
