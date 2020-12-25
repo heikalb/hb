@@ -16,7 +16,7 @@ body {
     src: url(OpenSans-Light.ttf)
 }
 
-.share-button, a, form * , p, span {
+a, form * , p, span {
     font-family: 'Open Sans', open-sans-alt, sans-serif;
     color: #666
 }
@@ -383,38 +383,6 @@ form #submit-button {
     display: none
 }
 
-.sharer {
-    position: fixed;
-    bottom: 10%;
-    right: 0;
-    width: 80px
-}
-
-.sharer .share-sites {
-    width: 30%;
-    -webkit-transition: height .5s ease;
-    transition: height .5s ease;
-    height: 0;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff
-}
-
-.sharer:active .share-sites, .sharer:hover .share-sites {
-    height: 110px;
-    padding: 10px
-}
-
-.sharer .share-button {
-    width: 100%;
-    color: #fff;
-    background-color: #09c;
-    border-style: none;
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px
-}
 
 #copyright {
     text-align: center;
@@ -553,7 +521,7 @@ body.darkened .gallery {
         height: 1em
     }
 
-    .legend, .sharer {
+    .legend {
         display: none
     }
 }
