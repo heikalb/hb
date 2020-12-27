@@ -394,7 +394,7 @@ form #submit-button {
 
 #theme-button-panel {
     background: #09c;
-    width: 80px;
+    width: 60px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -409,7 +409,7 @@ form #submit-button {
 
 #theme-button-panel p {
     color: #fff;
-    font-size: small;
+    font-size: large;
     text-align: center;
     margin: 5px 0
 }
